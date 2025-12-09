@@ -4,9 +4,11 @@ import java.time.LocalTime;
 
 public record RestaurantCreateDto(
         String name,
-        String cuisineType,
+        CuisineType cuisineType,
         LocalTime openingTime,
         LocalTime closingTime,
+        String taxId,
+        String branchCode,
         Long ownerId,
         String street,
         String number,

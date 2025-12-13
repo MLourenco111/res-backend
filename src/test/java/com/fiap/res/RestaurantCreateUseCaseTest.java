@@ -1,9 +1,10 @@
 package com.fiap.res;
 
-import com.fiap.res.domain.Address;
-import com.fiap.res.domain.Restaurant;
-import com.fiap.res.usercase.RestaurantCreateUserCase;
-import com.fiap.res.interfaces.RestauranteGateway;
+import com.fiap.res.domains.Address;
+import com.fiap.res.domains.Restaurant;
+import com.fiap.res.exceptions.RestaurantAlreadyExistsException;
+import com.fiap.res.usercases.RestaurantCreateUserCase;
+import com.fiap.res.interfaces.IRestauranteGateway;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -24,7 +25,7 @@ import static org.mockito.Mockito.*;
 class RestaurantCreateUseCaseTest {
 
     @Mock
-    private RestauranteGateway restauranteGateway;
+    private IRestauranteGateway restauranteGateway;
 
     @InjectMocks
     private RestaurantCreateUserCase useCase;

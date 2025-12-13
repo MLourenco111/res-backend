@@ -1,4 +1,4 @@
-package com.fiap.res;
+package com.fiap.res.exceptions;
 
 import org.springframework.http.HttpStatus;
 

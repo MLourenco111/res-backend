@@ -1,4 +1,4 @@
-package com.fiap.res.usercase;
+package com.fiap.res.usercases;
 
 public class RestaurantReadUserCase {
 }

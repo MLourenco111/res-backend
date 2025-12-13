@@ -1,8 +1,6 @@
-package com.fiap.res;
+package com.fiap.res.exceptions;
 
 import org.springframework.http.HttpStatus;
-
-import java.util.List;
 
 public class RestaurantAlreadyExistsException extends BaseBusinessException {
     public RestaurantAlreadyExistsException() {

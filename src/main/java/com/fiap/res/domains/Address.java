@@ -1,4 +1,4 @@
-package com.fiap.res.domain;
+package com.fiap.res.domains;
 
 public class Address {
 

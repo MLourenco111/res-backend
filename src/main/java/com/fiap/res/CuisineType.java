@@ -1,5 +1,7 @@
 package com.fiap.res;
 
+import com.fiap.res.exceptions.InvalidRestaurantException;
+
 public enum CuisineType {
     ITALIAN,
     BRAZILIAN,

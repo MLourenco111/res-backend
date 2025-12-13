@@ -1,10 +1,8 @@
 package com.fiap.res.interfaces;
 
-import com.fiap.res.domain.Restaurant;
+import com.fiap.res.domains.Restaurant;
 
-import java.util.Optional;
-
-public interface RestauranteGateway {
+public interface IRestauranteGateway {
 
     Restaurant save(Restaurant restaurant);
 
